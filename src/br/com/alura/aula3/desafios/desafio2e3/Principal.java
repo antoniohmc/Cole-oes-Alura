@@ -8,9 +8,8 @@ public class Principal {
 
             if (animal instanceof Cachorro) {
                 Cachorro cachorro = (Cachorro) animal;
-            } else {
-                System.out.println("O objeto não é um Cachorro.");
             }
+            System.out.println("O objeto não é um Cachorro.");
         }
     }
 }
