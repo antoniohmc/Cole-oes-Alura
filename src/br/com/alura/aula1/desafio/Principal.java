@@ -24,8 +24,8 @@ public class Principal {
         pessoa3.setIdade(6);
 
         System.out.println("Total de pessoas na lista: " + pessoas.size());
-        System.out.println("Primeira pessoa da lista: " + pessoas.get(0).getNome());
+        System.out.println("Primeira pessoa da lista: " + pessoas.getFirst().getNome());
         System.out.println("Lista de todas as pessoas: " + pessoas);
-        System.out.println("toString da primeira pessoa: " + pessoas.get(0).toString());
+        System.out.println("toString da primeira pessoa: " + pessoas.getFirst().toString());
     }
 }

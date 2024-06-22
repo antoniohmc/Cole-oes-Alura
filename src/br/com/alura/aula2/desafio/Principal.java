@@ -28,7 +28,7 @@ public class Principal {
 
         System.out.println("=====================================");
 
-        System.out.println("Primeiro produto da lista: " + produtos.get(0).toString());
+        System.out.println("Primeiro produto da lista: " + produtos.getFirst().toString());
         System.out.println("=====================================");
         System.out.println("Produto perecivel: " + produtoPerecivel);
 
